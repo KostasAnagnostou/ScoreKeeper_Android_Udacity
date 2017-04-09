@@ -12,9 +12,9 @@ The main files (Android Studio) for this project are:
 </br>
 ScreenShots:
 
-![alt tag](https://github.com/KostasAnagnostou/ScoreKeeper_Android_Udacity/blob/master/score_keeper.png)
+![alt tag](https://github.com/KostasAnagnostou/ScoreKeeper_Android_Udacity/blob/master/score_keeper.jpg)
 
-![alt tag](https://github.com/KostasAnagnostou/ScoreKeeper_Android_Udacity/blob/master/scorekeeper1%20(1).png)
+![alt tag](https://github.com/KostasAnagnostou/ScoreKeeper_Android_Udacity/blob/master/scorekeeper.jpg)
 
 
 
