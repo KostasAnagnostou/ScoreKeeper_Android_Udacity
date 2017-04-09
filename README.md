@@ -11,6 +11,7 @@ The main files (Android Studio) for this project are:
 6. <a href="https://github.com/KostasAnagnostou/ScoreKeeper_Android_Udacity/blob/master/app/src/main/res/values/colors.xml">colors.xml</a></br>
 </br>
 ScreenShots:
+</br>
 
 ![alt tag](https://github.com/KostasAnagnostou/ScoreKeeper_Android_Udacity/blob/master/score_keeper.jpg)
 
