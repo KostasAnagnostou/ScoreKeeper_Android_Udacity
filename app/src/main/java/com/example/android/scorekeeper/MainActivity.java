@@ -237,13 +237,27 @@ public class MainActivity extends AppCompatActivity {
      * Resets the score for both teams to 0.
      */
     public void resetScore(View v){
-        displayForPanathinaikos(0);
-        displayForFenerbahce(0);
-        threesPointersForPao(0);
-        threesPointersForFener(0);
-        twoPointersForPao(0);
-        twoPointersForFener(0);
-        freeThrowsForPao(0);
-        freeThrowsForFener(0);
+        panathinaikosScore = 0;
+        threePointersPao = 0;
+        threePointersPaoAttempted = 0;
+        twoPointersPao = 0;
+        twoPointersPaoAttempted = 0;
+        freeThrowsPao = 0;
+        freeThrowsPaoAttempted = 0;
+        fenerbahceScore = 0;
+        threePointersFener = 0;
+        threePointersFenerAttempted = 0;
+        twoPointersFener = 0;
+        twoPointersFenerAttempted = 0;
+        freeThrowsFener = 0;
+        freeThrowsFenerAttempted = 0;
+        displayForPanathinaikos(panathinaikosScore);
+        displayForFenerbahce(fenerbahceScore);
+        threesPointersForPao(threePointersPao);
+        threesPointersForFener(threePointersFener);
+        twoPointersForPao(twoPointersPao);
+        twoPointersForFener(twoPointersFener);
+        freeThrowsForPao(freeThrowsPao);
+        freeThrowsForFener(freeThrowsFener);
     }
 }
