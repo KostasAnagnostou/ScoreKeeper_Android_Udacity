@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Dimensions for textSize -->
+    <dimen name="score_text">40sp</dimen>
+    <dimen name="team_text">14sp</dimen>
+    <dimen name="text_stats_buttons">12sp</dimen>
+    <dimen name="pointers_ft_headers">16sp</dimen>
+
+    <!--Dimensions for padding-->
+    <dimen name="padding_eight">8dp</dimen>
+    <dimen name="padding_four">8dp</dimen>
+
+    <!--Dimensions for Margin -->
+    <dimen name="margin_Left_Right">24dp</dimen>
+    <dimen name="margin_twenty">20dp</dimen>
+    <dimen name="margin_top_sixteen">16dp</dimen>
+    <dimen name="margin_top">6dp</dimen>
+    <dimen name="margin_bottom_sixteen">16dp</dimen>
+    <dimen name="margin_bottom">6dp</dimen>
+    <dimen name="margin_four">4dp</dimen>
+
+    <!--Dimensions for Views (vertical & horizontal line)-->
+    <dimen name="view">1dp</dimen>
+
+    <!--Dimensions for LinearLayout Width -->
+    <dimen name="linear_width">0dp</dimen>
+
+</resources>
+

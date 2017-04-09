@@ -1,0 +1,137 @@
+<resources>
+
+    <!-- Base application theme - Hidden Status & Action Bar -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Style for the Scroll View -->
+    <style name="Wmatch_Hwrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Style for the ImageView (Background Image) -->
+    <style name="BasketCourt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for the 1st Linear Layout -->
+    <style name="ParentLinear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Style for the 2 Nested Linear Layout -->
+    <style name="LinearLayout">
+        <item name="android:layout_width">@dimen/linear_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Style for the name of Team TextView -->
+    <style name="PaoText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_eight</item>
+        <item name="android:textSize">@dimen/team_text</item>
+        <item name="android:textColor">@color/title_pao</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Style for the name of Team TextView -->
+    <style name="FenerText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_eight</item>
+        <item name="android:textSize">@dimen/team_text</item>
+        <item name="android:textColor">@color/title_fener</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Style for the Score TextView -->
+    <style name="ScoreText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/score_text</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!-- Style for 3 pointers, 2pointers & FT statistics-->
+    <style name="Statistics">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_four</item>
+        <item name="android:textSize">@dimen/text_stats_buttons</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Style for Horizontal View -->
+    <style name="ViewHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/view</item>
+        <item name="android:layout_margin">@dimen/margin_four</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <!-- Style for 3 pointers, 2 pointers & free throws Headers -->
+    <style name="PointHeaders">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/margin_Left_Right</item>
+        <item name="android:layout_marginRight">@dimen/margin_Left_Right</item>
+        <item name="android:textColor">@color/colorHeader</item>
+        <item name="android:background">@color/colorBlackTransparent</item>
+        <item name="android:textSize">@dimen/pointers_ft_headers</item>
+    </style>
+
+    <!-- Style for 3P, 2P & FT buttons -->
+    <style name="PointsButtons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/margin_twenty</item>
+        <item name="android:layout_marginRight">@dimen/margin_twenty</item>
+        <item name="android:textSize">@dimen/text_stats_buttons</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorButton</item>
+    </style>
+
+    <!-- Style for Vertical View -->
+    <style name="VerticalView">
+        <item name="android:layout_width">@dimen/view</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_sixteen</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <!-- Style for Reset Button -->
+    <style name="ResetButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_sixteen</item>
+        <item name="android:background">@color/colorButton</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+</resources>

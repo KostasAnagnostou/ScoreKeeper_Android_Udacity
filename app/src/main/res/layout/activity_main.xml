@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ScrollView (Wrap)-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Wmatch_Hwrap"
+    tools:context="com.example.android.scorekeeper.MainActivity" >
+
+<!-- Parent Layout - Relative Layout  -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.android.scorekeeper.MainActivity" >
+
+    <ImageView
+        android:id="@+id/oaka"
+        android:src="@drawable/basketball_court"
+        style="@style/BasketCourt" />
+
+    <!-- Layout for the two teams - LinearLayout Horizontal  -->
+    <LinearLayout
+        style="@style/ParentLinear">
+
+        <!-- Layout for Panathinaikos Team - Linear Vertical -->
+        <LinearLayout style="@style/LinearLayout">
+
+            <TextView
+                style="@style/PaoText"
+                android:text="@string/pao" />
+
+            <TextView
+                android:id="@+id/team_pao_score"
+                style="@style/ScoreText"
+                android:text="@string/score" />
+
+            <TextView
+                android:id="@+id/three_pao_score"
+                style="@style/Statistics"
+                android:text="@string/three_points_stats" />
+
+            <TextView
+                android:id="@+id/two_pao_score"
+                style="@style/Statistics"
+                android:text="@string/two_points_stats" />
+
+            <TextView
+                android:id="@+id/free_pao_score"
+                style="@style/Statistics"
+                android:text="@string/free_throws_stats" />
+
+            <!-- Hozirontal Line (View) -->
+            <View
+                style="@style/ViewHorizontal" />
+
+            <TextView
+                style="@style/PointHeaders"
+                android:text="@string/three_pointers" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="addThreeForPanathinaikos"
+                android:text="@string/threes_succeeded" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="missedThreeForPanathinaikos"
+                android:text="@string/threes_missed" />
+
+            <TextView
+                style="@style/PointHeaders"
+                android:text="@string/two_pointers" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="addTwoForPanathinaikos"
+                android:text="@string/two_succeeded" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="missedTwoForPanathinaikos"
+                android:text="@string/two_missed" />
+
+            <TextView
+                style="@style/PointHeaders"
+                android:text="@string/free_throws" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="addOneForPanathinaikos"
+                android:text="@string/ft_succeeded" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="missedOneForPanathinaikos"
+                android:text="@string/missed_ft" />
+
+        </LinearLayout>
+
+        <!-- Vertical Line (View) Between the 2 teams  -->
+        <View
+            style="@style/VerticalView" />
+
+        <!-- Layout for Fenerbahce Team - Linear Vertical  -->
+        <LinearLayout
+            style="@style/LinearLayout">
+
+            <TextView
+                style="@style/FenerText"
+                android:text="@string/fener" />
+
+            <TextView
+                android:id="@+id/team_fener_score"
+                style="@style/ScoreText"
+                android:text="@string/score" />
+
+            <TextView
+                android:id="@+id/three_fener_score"
+                style="@style/Statistics"
+                android:text="@string/three_points_stats" />
+
+            <TextView
+                android:id="@+id/two_fener_score"
+                style="@style/Statistics"
+                android:text="@string/two_points_stats" />
+
+            <TextView
+                android:id="@+id/free_fener_score"
+                style="@style/Statistics"
+                android:text="@string/free_throws_stats" />
+
+            <!-- Hozirontal Line (View) -->
+            <View
+                style="@style/ViewHorizontal" />
+
+            <TextView
+                style="@style/PointHeaders"
+                android:text="@string/three_pointers" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="addThreeForFenerbahce"
+                android:text="@string/threes_succeeded" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="missedThreeForFenerbahce"
+                android:text="@string/threes_missed" />
+
+            <TextView
+                style="@style/PointHeaders"
+                android:text="@string/two_pointers" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="addTwoForFenerbahce"
+                android:text="@string/two_succeeded" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="missedTwoForFenerbahce"
+                android:text="@string/two_missed" />
+
+            <TextView
+                style="@style/PointHeaders"
+                android:text="@string/free_throws" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="addOneForFenerbahce"
+                android:text="@string/ft_succeeded" />
+
+            <Button
+                style="@style/PointsButtons"
+                android:onClick="missedOneForFenerbahce"
+                android:text="@string/missed_ft" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Reset Button -->
+    <Button
+        style="@style/ResetButton"
+        android:onClick="resetScore"
+        android:text="@string/reset" />
+
+</RelativeLayout>
+</ScrollView>
+

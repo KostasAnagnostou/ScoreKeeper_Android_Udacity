@@ -1,0 +1,21 @@
+<resources>
+    <!-- The Texts of the App -->
+    <string name="app_name">Score Keeper</string>
+    <string name="pao">Panathinaikos BC</string>
+    <string name="fener">Fenerbahce</string>
+    <string name="score">0</string>
+    <string name="three_points_stats">3 Pointers: 0/0</string>
+    <string name="two_points_stats">2 Pointers: 0/0</string>
+    <string name="free_throws_stats">Free Throws: 0/0</string>
+    <string name="three_pointers">3 Pointers</string>
+    <string name="two_pointers">2 Pointers</string>
+    <string name="free_throws">Free Throws</string>
+    <string name="threes_succeeded">+3 Succeeded</string>
+    <string name="threes_missed">Missed 3 Pointer</string>
+    <string name="two_succeeded">+2 Succeeded</string>
+    <string name="two_missed">Missed 2 Pointer</string>
+    <string name="ft_succeeded">FT Succeeded</string>
+    <string name="missed_ft">Missed FT</string>
+    <string name="reset">Reset</string>
+
+</resources>
